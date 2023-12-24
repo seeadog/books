@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/books.css">
+    <script src="js/books.js" defer></script>
+
+    <title>JustBooks</title>
+
+</head>
+<body>
+
+    <div class="book-store">
+ <div class="header">
+  <div class="browse">
+   
+   <div class="search-bar">
+    <input type="text" placeholder="Поиск" />
+   </div>
+  </div>
+
+  <a href="index.html"> <div class="header-title">just<span>books</span></div> </a>
+  <div class="profile">
+   <div class="user-profile">
+    <a href="login.html">
+    Вход  
+  </a>
+  |
+  <a href="reg.html">
+    Регистрация 
+  </a>
+   </div>
+
+  </div>
+ </div>
+
+ <div class="book-slide">
+  <div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+   <div class="book-cell">
+    <div class="book-img">
+     <a href="tainstvenyisad.html"> <img src="https://cdn1.ozone.ru/s3/multimedia-8/6025040312.jpg" alt="" class="book-photo"></a>
+    </div>
+
+      <div class="book-content">
+     <div class="book-title">Таинственный сад</div>
+     <div class="book-author">Фрэнсис Бернетт </div>
+     <div class="rate">
+      <fieldset class="rating">
+       <input type="checkbox" id="star5" name="rating" value="5" />
+       <label class="full" for="star5"></label>
+       <input type="checkbox" id="star4" name="rating" value="4" />
+       <label class="full" for="star4"></label>
+       <input type="checkbox" id="star3" name="rating" value="3" />
+       <label class="full" for="star3"></label>
+       <input type="checkbox" id="star2" name="rating" value="2" />
+       <label class="full" for="star2"></label>
+       <input type="checkbox" id="star1" name="rating" value="1" />
+       <label class="full" for="star1"></label>
+      </fieldset>
+      <span class="book-voters">1.987 оценок</span>
+     </div>
+     <div class="book-sum">Рассказывает о сироте Мэри Леннок, которая переезжает в дом своего дяди в Англии и находит таинственный сад. </div>
+     <a href="tainstvenyisad.html"> <div class="book-see">Перейти к книге</div></a>
+    </div>
+
+    
+   </div>
+
+   <div class="book-cell">
+    <div class="book-img">
+    <a href="mertvyedushi.html"> <img src="https://cdn1.ozone.ru/s3/multimedia-i/6010254582.jpg" alt="" class="book-photo"></a> 
+    </div>
+
+    <div class="book-content">
+     <div class="book-title">Мертвые души</div>
+     <div class="book-author">Николай Гоголь</div>
+     <div class="rate">
+      <fieldset class="rating blue">
+       <input type="checkbox" id="star6" name="rating" value="5" />
+       <label class="full1" for="star6"></label>
+       <input type="checkbox" id="star7" name="rating" value="4" />
+       <label class="full1" for="star7"></label>
+       <input type="checkbox" id="star8" name="rating" value="3" />
+       <label class="full1" for="star8"></label>
+       <input type="checkbox" id="star9" name="rating" value="2" />
+       <label class="full1" for="star9"></label>
+       <input type="checkbox" id="star10" name="rating" value="1" />
+       <label class="full1" for="star10"></label>
+      </fieldset>
+      <span class="book-voters">1.987 оценок</span>
+     </div>
+     <div class="book-sum">Никому до Гоголя и после него не удавалось так ярко и остро описать пороки и слабости русского человека.</div>
+     <a href="mertvyedushi.html"> <div class="book-see book-blue">Перейти к книге</div> </a>
+    </div>
+
+   </div>
+
+   <div class="book-cell">
+    <div class="book-img">
+    <a href="malenkiezenshiny.html"> <img src="https://cdn1.ozone.ru/s3/multimedia-u/6008219010.jpg" alt="" class="book-photo"></a> 
+    </div>
+
+    <div class="book-content">
+     <div class="book-title">Маленькие женщины</div>
+     <div class="book-author">Луиза Олкотт</div>
+     <div class="rate">
+      <fieldset class="rating purple">
+       <input type="checkbox" id="star11" name="rating" value="5" />
+       <label class="full" for="star11"></label>
+       <input type="checkbox" id="star12" name="rating" value="4" />
+       <label class="full" for="star12"></label>
+       <input type="checkbox" id="star13" name="rating" value="3" />
+       <label class="full" for="star13"></label>
+       <input type="checkbox" id="star14" name="rating" value="2" />
+       <label class="full" for="star14"></label>
+       <input type="checkbox" id="star15" name="rating" value="1" />
+       <label class="full" for="star15"></label>
+      </fieldset>
+      <span class="book-voters">1.987 оценок</span>
+     </div>
+     <div class="book-sum">Семейная сага, повествующая о судьбах четырех сестер Марч.</div>
+    <a href="malenkiezenshiny.html"><div class="book-see book-pink">Перейти к книге</div></a> 
+    </div>
+
+   </div>
+
+   <div class="book-cell">
+    <div class="book-img">
+    <a href="triumfarka.html"><img src="https://cdn1.ozone.ru/s3/multimedia-9/6007283457.jpg" alt="" class="book-photo"> </a> 
+    </div>
+
+    <div class="book-content">
+     <div class="book-title">Триумфальная арка</div>
+     <div class="book-author">Эрих Мария Ремарк</div>
+     <div class="rate">
+      <fieldset class="rating yellow">
+       <input type="checkbox" id="star16" name="rating" value="5" />
+       <label class="full" for="star16"></label>
+       <input type="checkbox" id="star17" name="rating" value="4" />
+       <label class="full" for="star17"></label>
+       <input type="checkbox" id="star18" name="rating" value="3" />
+       <label class="full" for="star18"></label>
+       <input type="checkbox" id="star19" name="rating" value="2" />
+       <label class="full" for="star19"></label>
+       <input type="checkbox" id="star20" name="rating" value="1" />
+       <label class="full" for="star20"></label>
+      </fieldset>
+      <span class="book-voters">1.987 оценок</span>
+     </div>
+     <div class="book-sum">Пронзительная история любви всему наперекор, любви, приносящей боль, но и дарующей бесконечную радость.</div>
+     <a href="triumfarka.html"><div class="book-see book-yellow">Перейти к книге</div></a>
+    </div>
+
+   </div>
+
+   <div class="book-cell">
+    <div class="book-img">
+    <a href="goriprdubed.html"> <img src="img/j3fsl0ae.png" alt="" class="book-photo"></a> 
+    </div>
+
+    <div class="book-content">
+     <div class="book-title">Гордость и предубеждение</div>
+     <div class="book-author">Джейн Остен</div>
+     <div class="rate">
+      <fieldset class="rating dark-purp">
+       <input type="checkbox" id="star21" name="rating" value="5" />
+       <label class="full" for="star21"></label>
+       <input type="checkbox" id="star22" name="rating" value="4" />
+       <label class="full" for="star22"></label>
+       <input type="checkbox" id="star23" name="rating" value="3" />
+       <label class="full" for="star23"></label>
+       <input type="checkbox" id="star24" name="rating" value="2" />
+       <label class="full" for="star24"></label>
+       <input type="checkbox" id="star25" name="rating" value="1" />
+       <label class="full" for="star25"></label>
+      </fieldset>
+      <span class="book-voters">1.987 оценок</span>
+     </div>
+     <div class="book-sum">Самый популярный женский роман в мире, провозглашённый интернет-пользователями Великобритании одной из лучших книг всех времён и народов.</div>
+     <a href="goriprdubed.html"> <div class="book-see book-purple">Перейти к книге</div></a>
+    </div>
+
+   </div>
+
+  </div>
+ </div>
+
+ <div class="main-wrapper">
+  <div class="books-of">
+   <div class="week">
+
+    <div class="author-title">Популярные авторы</div>
+
+    <div class="author">
+     <img src="https://attuale.ru/wp-content/uploads/2018/11/p01gkzy2.jpg" alt="" class="author-img">
+     <div class="author-name">Эрих Мария Ремарк</div>
+    </div>
+
+    <div class="author">
+     <img src="https://lindeal.com/images/photos/stiven-king-dal-pokazaniya-protiv-sliyaniya-penguin-i-simon-schuster.png" alt="" class="author-img">
+     <div class="author-name">Стивен Кинг</div>
+    </div>
+
+    <div class="author">
+     <img src="https://celebmafia.com/wp-content/uploads/2015/07/marissa-mayer_40.jpg" alt="" class="author-img">
+     <div class="author-name">Марисса Мейер</div>
+    </div>
+
+    <div class="author">
+     <img src="https://www.kino-teatr.ru/blog/276/33136.jpg" alt="" class="author-img">
+     <div class="author-name">Рэй Брэдберри</div>
+    </div>
+
+    <div class="author">
+     <img src="https://1.bp.blogspot.com/-C3YsDxopohw/YPWwunqpo3I/AAAAAAABQV4/dtdDewxXKEQddnF1Uk2Z7pBCxarS5WLPwCNcBGAsYHQ/s1280/andre.jpg" alt="" class="author-img">
+     <div class="author-name">Андре Моруа</div>
+    </div>
+
+    <div class="author">
+     <img src="https://i.pinimg.com/originals/aa/c5/87/aac587b8e52ba0f5e0ce58357c97a0cc.jpg" alt="" class="author-img">
+     <div class="author-name">Агата Кристи</div>
+    </div>
+
+   </div>
+
+   <div class="week year">
+
+    <div class="author-title">Лучшие книги 2023 года</div>
+
+    <div class="year-book">
+     <img src="https://fb2-epub.com/uploads/posts/2022-02/1643741107-1121796-dzhoan-ketlin-rouling-garri-potter-i-uznik-azkabana.jpg" alt="" class="year-book-img">
+     <div class="year-book-content">
+      <div class="year-book-name">Гарри Поттер и узник Азкабана</div>
+      <div class="year-book-author">Джоан Роулинг</div>
+     </div>
+    </div>
+
+    <div class="year-book">
+     <img src="https://avatars.dzeninfra.ru/get-zen_doc/9278169/pub_643149bd8e004516cd9ec73e_64318086b628cd1a3c19e9c5/scale_1200" alt="" class="year-book-img">
+     <div class="year-book-content">
+      <div class="year-book-name">Зелёная миля</div>
+      <div class="year-book-author">Стивен Кинг</div>
+     </div>
+    </div>
+
+    <div class="year-book">
+     <img src="https://avatars.dzeninfra.ru/get-zen_doc/5284703/pub_643149bd8e004516cd9ec73e_64315cdd006c795e05c25ad4/scale_1200" alt="" class="year-book-img">
+     <div class="year-book-content">
+      <div class="year-book-name">Продажное королевство </div>
+      <div class="year-book-author">Ли Бардуго</div>
+     </div>
+    </div>
+
+    <div class="year-book">
+     <img src="https://comiczera.ru/wa-data/public/shop/products/53/35/3553/images/7203/7203.750x0.jpg" alt="" class="year-book-img">
+     <div class="year-book-content">
+      <div class="year-book-name">Крёстный отец</div>
+      <div class="year-book-author">Марио Пьюзо</div>
+     </div>
+    </div>
+
+    <div class="year-book">
+     <img src="https://xn--80aaph2avkn4e.xn--p1ai/wa-data/public/shop/products/00/webp/50/67/36750/images/82805/82805.750x0.webp" alt="" class="year-book-img">
+     <div class="year-book-content">
+      <div class="year-book-name">Цветы для Элджернона</div>
+      <div class="year-book-author">Дэниел Киз</div>
+     </div>
+    </div>
+
+   </div>
+   <div class="overlay"></div>
+  </div>
+
+  <div class="popular-books">
+
+   <div class="main-menu">
+    <div class="genre">По популярности</div>
+    <div class="book-types">
+
+     <a href="#" class="book-type active"> Все жанры</a> 
+
+     <a href="#" class="book-type"> Классика</a> 
+
+     <a href="#" class="book-type"> Фэнтези</a> 
+
+    <a href="#" class="book-type"> Детектив</a>
+
+    <a href="#" class="book-type"> Фантастика</a>
+
+    <a href="#" class="book-type"> Любовные</a> 
+
+    </div>
+   </div>
+
+   <div class="book-cards">
+<a href="kalasy.html">
+  <div class="book-card classic">
+     <div class="content-wrapper">
+      <img src="https://tn.by/wp-content/uploads/2022/08/skmbt_c22422080411401_0001-scaled-e1659606647935.jpg" alt="" class="book-card-img"> 
+     <div class="card-content">
+     <div class="book-name">Каласы пад сярпом тваiм</div>
+      <div class="book-by">Уладзімір Караткевіч</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c11" name="rating" value="5">
+<label class="full" for="star-c11"></label>
+<input type="checkbox" id="star-c12" name="rating" value="4">
+<label class="full" for="star-c12"></label>
+<input type="checkbox" id="star-c13" name="rating" value="3">
+<label class="full" for="star-c13"></label>
+<input type="checkbox" id="star-c14" name="rating" value="2">
+<label class="full" for="star-c14"></label>
+<input type="checkbox" id="star-c15" name="rating" value="1">
+<label class="full" for="star-c15"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 оценок</span>
+</div>
+       <div class="book-sum card-sum">Раман апісвае станаўленне беларускай нацыі на прыкладзе шляхецкай сям'і Загорскіх. Падзеі адбываюцца на Магілёўшчыне, Гродзеншчыне, у Вільні, Пецярбурзе, Маскве, Варшаве – у сялянскім асяроддзі і ў дваранскіх палацах, на студэнцкіх сходках і ў навучальных установах, у салонах і гасціных вышэйшых саноўнікаў і на вуліцах шматлюдных гарадоў. </div>
+      </div>
+    </div>
+    </div>
+</a>
+    
+<a href="prevrotnosti.html">
+  <div class="book-card classic love">
+     <div class="content-wrapper">
+     <img src="https://edvisrb.ru/images/uploads/h00000687866.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name"> Превратности любви</div>
+      <div class="book-by"> Андре Моруа </div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c16" name="rating" value="5">
+<label class="full" for="star-c16"></label>
+<input type="checkbox" id="star-c17" name="rating" value="4">
+<label class="full" for="star-c17"></label>
+<input type="checkbox" id="star-18" name="rating" value="3">
+<label class="full" for="star-c18"></label>
+<input type="checkbox" id="star-c19" name="rating" value="2">
+<label class="full" for="star-c19"></label>
+<input type="checkbox" id="star-c20" name="rating" value="1">
+<label class="full" for="star-c20"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 оценок</span>
+</div>
+       <div class="book-sum card-sum">Главные герои – Филипп Марсена и Изабелла де Шаверни рассказывают друг другу историю своей жизни. И каждая исповедь – это поиск родственной души, тайна которой даже для любящего оказывается непостижимой. </div>
+      </div>
+    </div>
+    </div>
+</a>
+    
+
+   <a href="drakula.html">
+    <div class="book-card fantasy classic">
+     <div class="content-wrapper">
+     <img src="https://images.deal.by/388259496_w640_h640_kniga-drakula-brem.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">Дракула</div>
+      <div class="book-by">Брэм Стокер</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c21" name="rating" value="5">
+<label class="full" for="star-c21"></label>
+<input type="checkbox" id="star-c22" name="rating" value="4">
+<label class="full" for="star-c22"></label>
+<input type="checkbox" id="star-c23" name="rating" value="3">
+<label class="full" for="star-c23"></label>
+<input type="checkbox" id="star-c24" name="rating" value="2">
+<label class="full" for="star-c24"></label>
+<input type="checkbox" id="star-c25" name="rating" value="1">
+<label class="full" for="star-c25"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 оценок</span>
+</div>
+       <div class="book-sum card-sum">История вампира из Трансильвании, сплетенная из вымысла и реальных исследований Брэма Стокера, открывает перед нами грани темной и светлой сторон человеческой натуры, а также поднимает тему извечного противостояния добра и зла. </div>
+      </div>
+    </div>
+    </div>
+    </a>
+
+  <a href="dom.html">
+    <div class="book-card fantasy">
+    <div class="content-wrapper">
+     <img src="https://cdn1.ozone.ru/s3/multimedia-g/6478959532.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name"> Дом, в котором</div>
+      <div class="book-by">Мариам Петросян</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c1" name="rating" value="5">
+<label class="full" for="star-c1"></label>
+<input type="checkbox" id="star-c2" name="rating" value="4">
+<label class="full" for="star-c2"></label>
+<input type="checkbox" id="star-c3" name="rating" value="3">
+<label class="full" for="star-c3"></label>
+<input type="checkbox" id="star-c4" name="rating" value="2">
+<label class="full" for="star-c4"></label>
+<input type="checkbox" id="star-c5" name="rating" value="1">
+<label class="full" for="star-c5"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 оценок</span>
+</div>
+       <div class="book-sum card-sum">На окраине города, среди стандартных новостроек, стоит Серый Дом, в котором живут Сфинкс, Слепой, Лорд, Табаки, Македонский, Черный и многие другие. Неизвестно, действительно ли Лорд происходит из благородного рода драконов, но вот Слепой действительно слеп, а Сфинкс – мудр. </div>
+      </div>
+    </div>
+    </div>
+  </a>  
+     
+  <a href="shesterka.html">
+    <div class="book-card fantasy">
+     <div class="content-wrapper">
+     <img src="https://cdn1.ozone.ru/s3/multimedia-i/6008219538.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">Шестёрка воронов</div>
+      <div class="book-by">Ли Бардуго</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c1" name="rating" value="5">
+<label class="full" for="star-c1"></label>
+<input type="checkbox" id="star-c2" name="rating" value="4">
+<label class="full" for="star-c2"></label>
+<input type="checkbox" id="star-c3" name="rating" value="3">
+<label class="full" for="star-c3"></label>
+<input type="checkbox" id="star-c4" name="rating" value="2">
+<label class="full" for="star-c4"></label>
+<input type="checkbox" id="star-c5" name="rating" value="1">
+<label class="full" for="star-c5"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 оценок</span>
+</div>
+       <div class="book-sum card-sum">Столичный город Кеттердам – центр международной торговли, место, где проворачивают свои дела крупные бизнесмены и преступные группировки. Здесь не прекращается борьба за сферы влияния и территорию, и в ход идут любые средства – от хитрых ловушек до жестоких разборок. </div>
+      </div>
+    </div>
+    </div>
+  </a>
+    
+  <a href="prodaznoekor.html">
+    <div class="book-card fantasy">
+      <div class="content-wrapper">
+      <img src="https://cdn.img-gorod.ru/nomenclature/26/428/2642826_2.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Продажное королевство</div>
+       <div class="book-by">Ли Бардуго</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Казу Бреккеру и его команде удалось провернуть столь дерзкое похищение, что они и сами не поняли, как остались в живых. Но обещанная заоблачная награда уплывает из рук, и юные изгои вынуждены снова бороться за свою жизнь. </div>
+       </div>
+     </div>
+     </div>
+  </a>
+    
+    <a href="gpphilosop.html">
+      <div class="book-card fantasy">
+      <div class="content-wrapper">
+      <img src="https://www.podpisnie.ru/upload/iblock/89b/0x12ziwy5l1k789pfkp6q80ndvbgw8wb.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Гарри Поттер и философский камень</div>
+       <div class="book-by">Джоан Роулинг</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Одиннадцатилетний мальчик-сирота Гарри Поттер живет в семье своей тетки и даже не подозревает, что он – настоящий волшебник. Но однажды прилетает сова с письмом для него, и жизнь Гарри Поттера изменяется навсегда. </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="gpuznik.html">
+      <div class="book-card fantasy">
+      <div class="content-wrapper">
+      <img src="https://fb2-epub.com/uploads/posts/2022-02/1643741107-1121796-dzhoan-ketlin-rouling-garri-potter-i-uznik-azkabana.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Гарри Поттер и узник Азкабана</div>
+       <div class="book-by">Джоан Роулинг</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum"> Книга, покорившая мир, эталон литературы для читателей всех возрастов, синоним успеха. Книга, сделавшая Дж. К. Роулинг самым читаемым писателем современности.  </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="zolushka.html">
+      <div class="book-card fantastic">
+      <div class="content-wrapper">
+      <img src="https://xn--80aaph2avkn4e.xn--p1ai/wa-data/public/shop/products/73/22/82273/images/153660/153660.750x0.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Золушка</div>
+       <div class="book-by">Марисса Мейер</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Целые дни шестнадцатилетняя Зола чинит на рынке чужие портскрины и андроиды. Она лучший механик Нового Пекина, и ее слава достигла королевского дворца. Но немногие знают, что она киборг.  </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="cveti.html">
+      <div class="book-card fantastic">
+      <div class="content-wrapper">
+      <img src="https://xn--80aaph2avkn4e.xn--p1ai/wa-data/public/shop/products/00/webp/50/67/36750/images/82805/82805.750x0.webp" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Цветы для Элджернона</div>
+       <div class="book-by">Дэниел Киз</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Сорок лет назад это считалось фантастикой. Сорок лет назад это читалось как фантастика. Исследующая и расширяющая границы жанра, жадно впитывающая всевозможные новейшие веяния, примеряющая общечеловеческое лицо, </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="trevosnye.html"> 
+      <div class="book-card detective">
+      <div class="content-wrapper">
+      <img src="https://cdn1.ozone.ru/s3/multimedia-o/6728806212.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Тревожные люди</div>
+       <div class="book-by">Фредрик Бакман</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">В маленьком шведском городке накануне Нового года вооруженный пистолетом человек в маске после неудачной попытки ограбить банк захватывает восемь заложников во время показа покупателям выставленной на продажу квартиры. </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="zelenayamilya.html">
+      <div class="book-card fantastic detective">
+      <div class="content-wrapper">
+      <img src="https://avatars.dzeninfra.ru/get-zen_doc/9278169/pub_643149bd8e004516cd9ec73e_64318086b628cd1a3c19e9c5/scale_1200" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Зеленая миля</div>
+       <div class="book-by">Стивен Кинг</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Глубокий старик Пол Эджкомб, бывший тюремный надзиратель над смертниками, вспоминает необыкновенные события особенной в его жизни осени 1932 года, </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="vedmak.html">
+      <div class="book-card fantasy">
+      <div class="content-wrapper">
+      <img src="https://belkniga.by/upload/iblock/54f/poslednee-zhelanie-mech-prednaznacheniya.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Ведьмак. Последнее желание. Меч предназначения</div>
+       <div class="book-by">Анджей Сапковский</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">Книгой "Последнее желание" начинается один из самых популярных циклов жанра фэнтези. В нее включены семь историй о начале пути ведьмака Геральта из Ривии, </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="otez.html">
+      <div class="book-card detective">
+      <div class="content-wrapper">
+      <img src="https://comiczera.ru/wa-data/public/shop/products/53/35/3553/images/7203/7203.750x0.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Крестный отец</div>
+       <div class="book-by">Марио Пьюзо</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">"Крестный отец" – классический роман о жизни одного из могущественных преступных синдикатов Америки – мафиозном клане дона Корлеоне. </div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+    <a href="sumerki.html">
+      <div class="book-card fantasy love">
+      <div class="content-wrapper">
+      <img src="https://chitatel.by/storage/thumbs/05/h1001_w1001_0544a29946f83d8695d5cc827a361325.jpg" alt="" class="book-card-img">
+      <div class="card-content">
+      <div class="book-name">Сумерки</div>
+       <div class="book-by">Стефани Майер</div>
+       <div class="rate">
+ <fieldset class="rating book-rate">
+ <input type="checkbox" id="star-c1" name="rating" value="5">
+ <label class="full" for="star-c1"></label>
+ <input type="checkbox" id="star-c2" name="rating" value="4">
+ <label class="full" for="star-c2"></label>
+ <input type="checkbox" id="star-c3" name="rating" value="3">
+ <label class="full" for="star-c3"></label>
+ <input type="checkbox" id="star-c4" name="rating" value="2">
+ <label class="full" for="star-c4"></label>
+ <input type="checkbox" id="star-c5" name="rating" value="1">
+ <label class="full" for="star-c5"></label>
+ </fieldset>
+ <span class="book-voters card-vote">1.987 оценок</span>
+ </div>
+        <div class="book-sum card-sum">История обычной старшеклассницы из провинциального городка Беллы Свон, покорившей сердца двух весьма необычных парней:</div>
+       </div>
+     </div>
+     </div>
+    </a>
+     
+     
+   </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>
